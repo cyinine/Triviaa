@@ -1,0 +1,68 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  background-image: url("images/3-ocean.jpg");
+  background-repeat: none ;
+}
+
+#wrapper {
+  width: 960px;
+  min-height: 80%;
+  box-sizing: border-box;
+  padding: 5% 0;
+  margin: 5% auto;
+  background-color:teal;
+}
+
+#sub-wrapper {
+  position: relative;
+  top: 20%;
+}
+
+button {
+  display: block;
+  width: 400px;
+  height: 100px;
+  margin: 10px auto 0;
+  font-size: 42px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}
+
+h1 {
+  margin-bottom: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 6.5em;
+  font-weight: bold;
+  color: blue;
+}
+
+h2 {
+  margin-bottom: 25px;
+  font-size: 35px;
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+#start {
+  margin-top: 10%;
+  background: rgb(119, 5, 212);
+  border: 2px solid blue;
+}
+
+#question-zone h2 {
+  margin-top: 50px;
+}
+
+button:hover {
+  background: darkblue;
+  border: 2px solid blue;
+}
